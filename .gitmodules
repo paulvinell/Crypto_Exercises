@@ -1,0 +1,3 @@
+[submodule "RubyCryptoAid"]
+	path = RubyCryptoAid
+	url = git@github.com:paulvinell/RubyCryptoAid.git
