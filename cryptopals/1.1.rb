@@ -12,7 +12,7 @@ require 'raw_string'
 puts "Flag: #{a.hex_to_raw.value}"
 puts
 
-answer = a.hex_to_raw.to_b64
+answer = a.hex_to_raw.to_b64(strict: true)
 
 puts "Input: #{a}"
 puts "Expected output: #{b}"
