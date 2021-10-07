@@ -1,9 +1,9 @@
 ### Implement PKCS#7 padding
 
-require 'block'
+require 'raw_string'
 
 a = "YELLOW SUBMARINE"
-b = pad(a.bytes, 20).pack("c*")
+b = a.to_raw.pad(20).value
 
 puts "Before padding: #{a.inspect}"
 puts "After padding: #{b.inspect}"
