@@ -1,3 +1,5 @@
+### PKCS#7 padding validation
+
 require 'raw_string'
 
 a = "ICE ICE BABY\x04\x04\x04\x04"
